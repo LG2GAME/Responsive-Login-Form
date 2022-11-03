@@ -108,6 +108,7 @@ html{
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .inputs-right input{
     border-radius: 50px;
@@ -228,13 +229,17 @@ p span{
 @media only screen and (max-width: 500px){
     .container-box{
         width: 100vw;
-        height: 80vh;
+        height: 100vh;
     }
 
     .inputs-right{
-        width: 100vw;
+        width: 120vw;
     }
     .inputs-left{
-        width: 100vw;
+        width: 120vw;
     }
+
+    .button-sign-up{
+        margin-top: 2rem;
+     }
 }
